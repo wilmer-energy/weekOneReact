@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.quoteBox{
+ box-shadow: 1px 1px 2px #344e41;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-top: 30vh;
+  
+}
+.quote{
+  font-size: 30px;
+}
+.author{
+  font-size: 20px;
+}
+.topQuote{
+  display: flex;
+  flex-direction: row;
+}
+.bottonQuote{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-left: auto;
+  align-items: flex-end;
+}
+.btnChangeQuote{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  margin: 10px;
+}
