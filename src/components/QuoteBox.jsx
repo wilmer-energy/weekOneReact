@@ -17,12 +17,12 @@ document.body.style=`background: ${colors[colorNumber]}`
     return (
         <div className='quoteBox' style={{color: colors[colorNumber]}}>
             <div className='topQuote'>
-            
+            <i className="fa-solid fa-quote-left"></i>
             <p className='quote'>{quotes[quoteNumber].quote}</p>
             </div>
             <div className='bottonQuote'>
             <p className='author'>{quotes[quoteNumber].author}</p>
-            <button onClick={changeQuote} className="btnChangeQuote" style={{background: `${colors[colorNumber]}`}}>Icon</button>
+            <button onClick={changeQuote} className="btnChangeQuote" style={{background: `${colors[colorNumber]}`}}>→</button>
             </div>
         </div>
     );

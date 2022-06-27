@@ -35,4 +35,10 @@
   border-radius: 50%;
   border: none;
   margin: 10px;
+  color: white;
+  font-size: 40px;
+}
+.fa-solid{
+  font-size: 60px;
+  margin-right: 20px;
 }
